@@ -1,24 +1,20 @@
 import React, { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
+import hero from "../../assets/images/hero.png";
+import hero1 from "../../assets/images/hero1.png";
+import hero2 from "../../assets/images/hero3.png";
 
 const HomeCarosul = () => {
   const slides = [
     {
-      url: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGUlMjBjb21tZXJjZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      url: hero,
     },
     {
-      url: "https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvcHBpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      url: hero1,
     },
     {
-      url: "https://img.freepik.com/free-vector/big-sale-yellow-banner-3d-style_1017-39050.jpg",
-    },
-
-    {
-      url: "https://images.unsplash.com/photo-1558191053-8edcb01e1da3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGNsb3RoaW5nJTIwc3RvcmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-    },
-    {
-      url: "https://images.unsplash.com/photo-1625697674238-a25bf60b657b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTd8fGNsb3RoaW5nJTIwc3RvcmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      url: hero2,
     },
   ];
 
